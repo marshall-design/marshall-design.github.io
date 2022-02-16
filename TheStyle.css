@@ -1,0 +1,32 @@
+h2 {
+  background-color: rgb(193,225,199);
+  font-family: Garamond, serif;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 50%;
+  font-size: 70px
+}
+.week01 {
+  background-color: rgb(193,225,199);
+  font-family: Garamond, serif;
+  position: absolute;
+  top: 700px;
+  left: 10%;
+  width:50%;
+  font-size: 30px;
+}
+.week02 {
+  background-color: rgb(193,225,199);
+  font-family: Garamond, serif;
+  position: absolute;
+  top: 900px;
+  left: 40%;
+  width:60%;
+  font-size: 40px;
+}
+/* https://stackoverflow.com/questions/5758642/how-to-put-text-over-images-in-html/5758701 */
+.LiquorStore.jpg {
+  position: relative;
+  width: 100%;
+}
