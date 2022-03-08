@@ -39,3 +39,13 @@ h2 {
   position: relative;
   width: 100%;
 }
+
+.Presentation {
+  background-color: rgb(193,225,199);
+  font-family: Garamond, serif;
+  position: absolute;
+  top: 625px;
+  left: 25%;
+  width: 40%;
+  font-size: 20px;
+}
