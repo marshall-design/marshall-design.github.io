@@ -49,3 +49,13 @@ h2 {
   width: 40%;
   font-size: 20px;
 }
+
+.Poster {
+  background-color: rgb(193,225,199);
+  font-family: Garamond, serif;
+  position: absolute;
+  top: 1200;
+  left: 5%;
+  width: 40%;
+  font-size: 32px;
+}

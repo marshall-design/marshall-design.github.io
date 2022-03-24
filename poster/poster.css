@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: .5;
+  position: absolute;
+}
+
+.zero {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  animation-duration: 6s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+
+}
+
+.two {
+  width: 100%;
+  height: 100%;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+
+}
+
+.three {
+  width: 100%;
+  height: 100%;
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+
+}
+
+.four {
+  width: 100%;
+  height: 100%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+
+}
+
+.five {
+  width: 100%;
+  height: 100%;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
