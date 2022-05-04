@@ -29,7 +29,7 @@ function preload() {
 }
 
 function centerCanvas() {
-  var q = -21;
+  var q = 280;
   var r = 191;
   cnv.position(q, r);
 }

@@ -1,9 +1,8 @@
 main {
-  transform: scale(.8);
+  transform: scale(1);
 }
 
 .image1 {
-  position: absolute;
-  right: 0px;
-  top: 0px;
+  top: 0;
+  left: 0;
 }
