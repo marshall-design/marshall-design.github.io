@@ -1,11 +1,11 @@
 //file containing the script for the project
 
 let one = ["I had a dream about him last night...",
-"At first, he was silent, but after he noticed me he told me that he was still in space...",
+"At first, he was silent, but after noticing me, he told me that he was still in space...",
 "Do you think this means something?",
 "What will become of me?"]
 let two = ["Me too, I have my own theories...",
-"The last time I spoke with him was right before they shipped him off to deliver supplies...",
+"The last time I spoke with him was right before they shipped him off to deliver supplies to the colonies...",
 "Do you remember when those colonies were established? Or are you too young?",
 "Well it must mean something..."]
 let three = ["Of course, of course...",

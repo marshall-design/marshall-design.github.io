@@ -6,6 +6,7 @@ let border = 72; //border width
 let cellWidth = 435.351; //width of text cells
 let cellHeight = 178.286; //height of text cells
 let amplitude;
+var cnv;
 
 function preload() {
   myFont = loadFont('garamond.otf'); //loading font
@@ -27,8 +28,15 @@ function preload() {
   room = loadSound('Sounds/room.wav') //load room sound with declared variable
 }
 
+function centerCanvas() {
+  var q = -21;
+  var r = 191;
+  cnv.position(q, r);
+}
+
 function setup() {
-  createCanvas(backgroundWidth,backgroundHeight); //canvas created
+  cnv = createCanvas(backgroundWidth,backgroundHeight); //canvas created
+  centerCanvas();
   amplitude = new p5.Amplitude(); //get amplitude of canvas
   amplitude.setInput(fw1);
   amplitude.setInput(fw2);
@@ -80,6 +88,10 @@ function setup() {
   bottom = 2580;
   bottom1 = 2580;
   room.loop()
+}
+
+function windowResized() {
+  centerCanvas();
 }
 
 function draw() {

@@ -10,9 +10,9 @@ function mouseCircle() {
   noStroke(); //no stroke for circles
   fill(mouseColor);
   //frameRate(10);
-  for (let z=0;z<5;z++){ //8 circles surrounding mouse
-    ellipseMode(CENTER);
-    ellipse((mouseX)+size1*(random(-100,100)*z),(mouseY)+size1*(random(-100,100)*z),10);
+  // for (let z=0;z<5;z++){ //8 circles surrounding mouse
+  //   ellipseMode(CENTER);
+  //   ellipse((mouseX)+size1*(random(-100,100)*z),(mouseY)+size1*(random(-100,100)*z),10);
     //circle amount plus number of circles plus or minus a random number
     //from 1 to 25
     //plus or minus so that the circles center on the mouse
@@ -20,4 +20,3 @@ function mouseCircle() {
     //with the sketch
     //creates a kind of cloud look around the mouse
   }
-}
