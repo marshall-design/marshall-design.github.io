@@ -14,7 +14,7 @@ function conversation() {
   textColor = color(49,21,24);
   textColor.setAlpha(a+=5);
   fill(textColor);
-
+  if (pressed < 80) {
   if (pressed === 1) {
   cell10.display()
 } else if (pressed ===2){
@@ -392,17 +392,11 @@ cell200.display()
 } else if (pressed === 78){
 cell201.display()
 } else if (pressed === 79){
-cell202.display() }
-else if (pressed >= 80){
-  push()
-  rectMode(CENTER)
-  fill(223,222,216);
-  strokeWeight(5)
-  rect(backgroundWidth/2,backgroundHeight/2,frameWidth+24,frameHeight+24);
-  pop()
+cell202.display() }}
+}
+  if (pressed >= 80){
   cell1313.display2()}
-  if (pressed > 81) {
+  if (pressed >= 81) {
     cell53.display2()
   }
-}
 }

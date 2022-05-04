@@ -8,7 +8,6 @@ function ships() {
   bubble7.resize(0,500)
 
   imageMode(CENTER);
-  if (pressed <80) {
   if (pressed >=4 && (d1count > 0||d2count > 0)) {
     image(bubble1,xpos=xpos+2,random1)
     if (xpos > 5000) {
@@ -117,5 +116,4 @@ function ships() {
       top4 = -1500
     }
   }
-}
 }

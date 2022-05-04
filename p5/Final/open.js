@@ -19,5 +19,6 @@ function opening() {
   fill(223,222,216);
   text("A stranger approaches you.\n" + round((frameCount/60)-15) + "/5", 1920/2,1080/2-50);
   pop()
+  pressed = 0;
 }
 }
