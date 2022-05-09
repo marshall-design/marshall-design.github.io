@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<!-- PLEASE READ this
+I have been trying to figure out how to get the canvas
+to react to the size of the window, and it cannot be done
+without using scale() which ends up messing up where the canvas
+reads where the user's mouse is clicking. I know how to do it with
+the frame image. That's easy. I just can't figure it out with the
+canvas. The only way to do it is if I change my canvas size in p5 go
+windowwidth, but this does not work because I coded everything using
+actual numbers and did not reference the canvas size for all of my
+measurements. There is no way to do it without basically resizing everything
+in my whole project which I don't have time to do. I guess lesson learned.
+Always reference everything back to the canvas size so it can be reshaped
+later. Anyways, thanks for a great semester! -->
+
 <html lang="">
 
 <head>
@@ -10,6 +23,7 @@
 
 <body style="background-color:Black">
   <main>
+    <div class="canvas1">
     <script src="../p5.js"></script>
     <script src="../addons/p5.sound.js"></script>
     <script src="script.js" ></script>
@@ -21,6 +35,7 @@
     <script src="question.js" ></script>
     <script src="mousecircle.js" ></script>
     <script src="ships.js" ></script>
+  </div>
     <img class = "image1" src="Frame.png"/>
   </main>
 </body>

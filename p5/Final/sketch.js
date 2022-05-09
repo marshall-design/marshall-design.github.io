@@ -87,7 +87,7 @@ function setup() {
   top4 = -1500;
   bottom = 2580;
   bottom1 = 2580;
-  room.loop()
+  room.loop();
 }
 
 function windowResized() {
